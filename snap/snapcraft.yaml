@@ -1,0 +1,20 @@
+name: rhaws
+version: '1.0.0'
+summary: Read RH-USB sensor and send data to AWS IoT.
+description: |
+  Periodically read a RH-USB temperature and humidity
+  sensor and publish sensor data to AWS IoT.
+
+grade: devel
+confinement: devmode
+
+apps:
+  rhaws:
+    command: bin/rhaws
+    daemon: simple
+    plugs: [network]
+
+parts:
+  publish:
+    source: src
+    plugin: nodejs

@@ -1,0 +1,11 @@
+{
+  "name": "rhaws",
+  "version": "1.0.0",
+  "description": "Read RH-USB sensor and transmit readings to AWS IoT",
+  "license": "MIT",
+  "bin": "./rhaws.js",
+  "dependencies": {
+    "aws-iot-device-sdk": "^1.0.14",
+    "serialport": "^4.0.7"
+  }
+}
