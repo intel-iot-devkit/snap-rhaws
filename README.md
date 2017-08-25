@@ -1,4 +1,4 @@
 # snap-rhaws
 
-Source code used in "Using Intel NUC and Ubuntu Linux to Build a Cloud-Connected Sensor Application."
+Source code used in "Using the Intel® NUC and Ubuntu\* to Build a Cloud-Connected Sensor Application."
 
